@@ -1,0 +1,1 @@
+console.log('BASIC: Generated at - Tue Jan 18 2022 15:35:43 GMT+0530 (India Standard Time)')
