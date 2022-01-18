@@ -24,6 +24,7 @@ app.get("/", async (req, res) => {
     );
     await git.add('.')
     await git.commit('Test simple-git commit')
+    await git.push('origin', 'main')
     res.send("Generation Successful!\n");
   } catch (error) {
     res.send("Generation Failed!\n");
